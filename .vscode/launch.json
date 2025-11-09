@@ -1,0 +1,18 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+  
+    {
+      "name": "Debug",
+      "type": "cppdbg",
+      "request": "launch",
+      "program": "${fileDirname}/output/main.exe",
+      "args": [],
+      "stopAtEntry": false,
+      "cwd": "${fileDirname}",
+      "externalConsole": false,
+      "MIMode": "gdb",
+      "miDebuggerPath": "C:/msys64/ucrt64/bin/gdb.exe",
+      "preLaunchTask": "Build All C++ Files"    }
+  ]
+}

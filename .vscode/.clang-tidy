@@ -1,0 +1,30 @@
+Checks: >
+  readability-identifier-naming
+
+CheckOptions:
+  # Variables
+  - { key: readability-identifier-naming.VariableCase,             value: lower_case }
+  - { key: readability-identifier-naming.LocalVariableCase,        value: lower_case }
+  - { key: readability-identifier-naming.GlobalVariableCase,       value: lower_case }
+  - { key: readability-identifier-naming.MemberVariableCase,       value: lower_case }
+  - { key: readability-identifier-naming.PrivateMemberPrefix,      value: _ }
+
+  # Constants
+  - { key: readability-identifier-naming.ConstantCase,             value: camelBack }
+  - { key: readability-identifier-naming.GlobalConstantCase,       value: camelBack }
+
+  # Functions
+  - { key: readability-identifier-naming.FunctionCase,             value: lower_case }
+  - { key: readability-identifier-naming.PrivateFunctionCase,      value: lower_case }
+
+  # Classes / Structs / Enums
+  - { key: readability-identifier-naming.ClassCase,                value: CamelCase }
+  - { key: readability-identifier-naming.StructCase,               value: CamelCase }
+  - { key: readability-identifier-naming.EnumCase,                 value: CamelCase }
+  - { key: readability-identifier-naming.EnumConstantCase,         value: CamelCase }
+
+  # Macros
+  - { key: readability-identifier-naming.MacroDefinitionCase,      value: UPPER_CASE }
+  - { key: readability-identifier-naming.MacroDefinitionPrefix,    value: "" }
+
+

@@ -1,0 +1,17 @@
+This is a style guide I created. It will be used in this project, so I can figure out what works.
+
+
+- **Variables** → `snake_case`
+    
+- **Functions** → `snake_case`
+    
+- **Constants** / Namespaces→ `camelCase`   
+	
+- **Type Template Parameter**  → `UpperCamelCase / T`
+    
+- **Classes / Structs / Enums** → `UpperCamelCase`
+    
+- **Macros** → `ALL_CAPS_WITH_UNDERSCORES`
+    
+- **Private members** → optionally prefixed with underscore (e.g., `_internal_buffer`)
+
